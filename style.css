@@ -8,8 +8,9 @@ body {
 h1 { 
       font-family: Arial, Helvetica, sans-serif;
       text-align: left;
+      margin-left: 25px;
       font-size: 90px;
-      margin-top: 100px;
+      margin-top: 200px;
   }
 
 .nav {
@@ -68,56 +69,38 @@ h1 {
 #paragraph p {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 40px;
-      padding-left: 20px;
+      padding-left: 30px;
       margin-right: 50%;
-      position: absolute; bottom: 150px;
+      position: absolute; bottom: 100px;
       text-align: justify;
 }
 
 img {
-      padding-left: 60em;
-}
-
-footer {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: rgb(247, 247, 247);
-    overflow: hidden;
-    padding: 25px;
-
+    padding-left: 70em;
+    padding-bottom: 50px;
 }
 
 
-.footer-text-left a {
-    display: block;
+#details div {
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 200px; 
+}
+
+#details{
+    background-color: rgb(241, 241, 241);
+    height: 250px;
+    top: 0;
+    left: 0; 
+}
+
+#details a {
+    cursor: url(Images/icons8-hand-cursor-50.png), pointer;
+}
+
+#details a:hover {
+    background-color: rgb(255, 238, 0);
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    cursor: url(Images/icons8-hand-cursor-50.png), pointer;
-}
-
-.footer-text-left a:hover {
-    background-color: rgb(255, 238, 0);
-    cursor: url(Images/icons8-hand-cursor-50.png), pointer;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-text-right a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    cursor: url(Images/icons8-hand-cursor-50.png), pointer;
-}
-
-.footer-text-right a:hover {
-    background-color: rgb(255, 238, 0);
-    cursor: url(Images/icons8-hand-cursor-50.png), pointer;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
