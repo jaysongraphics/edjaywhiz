@@ -71,7 +71,7 @@ h1 {
       font-size: 40px;
       padding-left: 30px;
       margin-right: 50%;
-      position: absolute; bottom: 100px;
+      /* position: absolute; bottom: 100px; */
       text-align: justify;
 }
 
